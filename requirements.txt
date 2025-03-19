@@ -83,7 +83,6 @@ ptyprocess==0.7.0
 pycairo==1.26.1
 pydot==2.0.0
 Pygments==2.18.0
-PyGObject==3.50.0
 pyinstaller==6.12.0
 pyinstaller-hooks-contrib==2025.1
 PyJWT==2.7.0
