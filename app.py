@@ -4,7 +4,17 @@ from prettytable import PrettyTable
 import matplotlib.pyplot as plt
 import os
 
+from flask import Flask
+
 app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Flask App is Running!"
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)
+
 
 # Define the directory to save PDFs
 OUTPUT_DIR = os.path.join(os.getcwd(), 'output')
